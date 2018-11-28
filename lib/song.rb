@@ -9,11 +9,11 @@ class Song
     @@all << self
   end
 
-  def Song.all
-    return  @@all
+  def self.all
+     @@all
   end
 
-  def artist_name
+  def artist_names
       self.artist.name
     end
 end
