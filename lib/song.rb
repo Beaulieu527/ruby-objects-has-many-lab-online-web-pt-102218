@@ -9,9 +9,14 @@ class Song
     @@all << self
   end
 
+  def artist_name
+    if self.artist
+      self.artist.name
+  end
+
   def self.all
      @@all
   end
 
-  
+
 end
